@@ -1,0 +1,134 @@
+<html>
+    <head>
+        <title>Agroom</title>
+        <link rel="stylesheet" href="bs/css/bootstrap.min.css">
+        <script src="bs/js/bootstrap.min.js"> </script>
+        <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
+    </head>
+    <body>
+        <div class="row">
+            <div class="col-sm-12 text-center" style="background-color:#b2ffd9;">
+                    <img src="/opt/lampp/htdocs/agroom/image/Agroomlogoone.png" width="533" height="300">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 text-left" style="background-color:#5efff7;">
+                <h1 style="padding:20px; padding-left: 60px; font-family:Amaranth;">Hello Farmers !</h1>
+                <p style="padding-right:40px; padding-top: 10px; padding-left: 60px;">Create an account, it's free. Agroom invites you to be associated<br> with it and Agroom is waiting to serve you. </p>
+                <form class="form-horizontal" style="padding-left: 40px;" method="POST" action="signup1.php"></form><br>
+                        <div class="form-group">
+                          <div class="col-sm-6">
+                            <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name" required>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-6">
+                              <input type="date" class="form-control" id="dob" placeholder="Enter your Date of Birth" name="dob">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-6">
+                                <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-6">          
+                                <input type="password" class="form-control" id="pwd" placeholder="Enter Password" name="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+                            </div>
+                        </div>
+                        <div class="form-group">        
+                            <div class="col-sm-6">
+                                <button type="submit" class="btn btn-success"><a href="file:///opt/lampp/htdocs/agroom/farmeragr.html">Sign Up</a></button>
+                            </div>
+                        </div>
+                </form>  
+                <h3 style="padding-left: 190px;">OR</h3>
+                <form class="form-horizontal" style="padding-left:40px" method="POST" action="signin1.php"><br>
+                    <div class="form-group">
+                      <div class="col-sm-6">
+                        <input type="text" class="form-control" id="faremail" placeholder="Email ID" name="faremail" required>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-sm-6">          
+                        <input type="password" class="form-control" id="farpwd" placeholder="Password" name="farpwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+                      </div>
+                    </div>
+                    <div class="form-group">        
+                      <div class="col-sm-6">
+                        <button type="submit" class="btn btn-success"><a href="file:///opt/lampp/htdocs/agroom/farmeragr.html">Log In</a></button>
+                        <button type="button" class="btn btn-link">Forgot Password</button> 
+                      </div>
+                    </div>
+                </form>      
+            </div>
+            <div class="col-sm-6 text-center" style="background-color:#5efff7; ">
+                <div style="text-align: left">
+                    <h1 style="padding:20px; padding-left: 100px; font-family:Amaranth;">Hello Buyers !</h1>
+                    <p style="padding-right:40px; padding-top: 10px; padding-left: 100px;">Click the button below to directly enter to Agroom's Mart.</p>
+                </div>
+                <div style="text-align: left; padding-left: 110px">
+                <button type="submit" class="btn btn-primary ">
+                    <img src="/opt/lampp/htdocs/agroom/image/groceries.png" width="150" height="150" style="padding:20px; "><h4 style="color: rgb(247, 253, 160);"><a href="http://localhost/agroom/agrmall.php" style="color: rgb(247, 253, 160);">Buy</a></h4>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2" style="background-color:#b2ffd9;"></div>
+            <div class="col-sm-8 text-center" style="background-color:#b2ffd9; padding: 20px">
+                <h5>Farmers guarantee tomorrow’s food security. Next to this essential function of food provision, they also fulfill a number of additional roles that benefit the environment, the economy and society.</h5>
+                <h1 style="font-family:Amaranth;">Agroom</h1>
+                <p>- A comprehensive and innovative agricultural portal helps rural communities drive efficiencies and sustainability. We help the farmers become more connected, integrated, & informed than ever before. We provide them the right information at the right time, from sowing, nurturing, protecting to harvesting their crops. Our portal helps them improve on-farm decision-making and execution, predict what is coming around the corner and act upon it more effectively. Basically, we as our name suggests; groom the farmers for agriculture.</p>
+            </div>
+            <div class="col-sm-2" style="background-color:#b2ffd9;"></div>
+        </div>
+        <div class="row">
+                <div class="col-sm-12" style="background-color:#5efff7; color:#7e1300; font-family:Amaranth; text-align:center; ">
+                <h2>Get In Touch With Us,</h2>
+                </div>
+              </div>
+              </div>
+                <div class="row">
+                <div class="col-sm-4" style="background-color:#b2ffd9;">
+                <h3 style="font-family:Amaranth; color:#002533; padding-left:50px; padding-top:30px;">Contact Information :</h3>
+                <h5 style="font-family:Verdana; color:#006962; padding-left:50px; padding-top:10px;"><b>Agroom Co.</b></h5>
+                <h6 style="font-family:Verdana; color:rgb(0, 66, 62); padding-left:50px; padding-top:2px;">B-222, Second Floor,</h6>
+                <h6 style="font-family:Verdana; color:rgb(0, 66, 62); padding-left:50px; padding-top:2px;">DLF Cyber City, Patia,</h6>
+                <h6 style="font-family:Verdana; color:rgb(0, 66, 62); padding-left:50px; padding-top:2px;">Bhubaneswar,</h6>
+                <h6 style="font-family:Verdana; color:rgb(0, 66, 62); padding-left:50px; padding-top:2px;">Odisha, IND - 751024</h6>
+                </div>
+                <div class="col-sm-2" style="background-color:#b2ffd9;">
+                <h3 style="font-family:Amaranth; color:#002533; padding-left:10px; padding-top:30px;">Useful Link :</h3>
+                <button type="button" class="btn btn-link">Home</button><br>
+                <button type="button" class="btn btn-link">About Us</button><br>
+                <button type="button" class="btn btn-link">Privacy Policy</button><br>
+                </div>
+                <div class="col-sm-3" style="background-color:#b2ffd9;">
+                    <h3 style="font-family:Amaranth; color:#002533; padding-left:10px; padding-top:30px; text-align: center">Associated with ,</h3><br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <img src="/opt/lampp/htdocs/agroom/image/weather.png" width="60" height="60"> &nbsp; &nbsp; &nbsp;
+                    <img src="/opt/lampp/htdocs/agroom/image/bankbazaar.png" width="120" height="60"><br><br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <img src="/opt/lampp/htdocs/agroom/image/agribegri.png" width="120" height="60">
+                </div>
+                <div class="col-sm-3" style="background-color:#b2ffd9; padding-right:5px;">
+                <img src="/opt/lampp/htdocs/agroom/image/Agroomlogo.png" width="250" height="250">
+                </div>
+              </div>
+                <div class="row">
+                <div class="col-sm-12" style="background-color:#b2ffd9; color:#b97900; font-family:Amaranth; text-align:center;"><br>
+                <h4>Follow Us,</h4>
+                <div>
+                <img src="/opt/lampp/htdocs/agroom/image/facebook.png" width="40" height="40">&nbsp; &nbsp; &nbsp; &nbsp;
+                <img src="/opt/lampp/htdocs/agroom/image/google-plus.png" width="40" height="40">&nbsp; &nbsp; &nbsp; &nbsp;
+                <img src="/opt/lampp/htdocs/agroom/image/instagram.png" width="40" height="40">&nbsp; &nbsp; &nbsp; &nbsp;
+                <img src="/opt/lampp/htdocs/agroom/image/whatsapp.png" width="40" height="40">
+                </div><br>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12" style="background-color:#1dff83; color:#000000">
+                <h6 class="text-center">Copyright &#169; 2019 Agroom Co.</h6>
+              </div>
+            </div>
+    </body>
+</html>
